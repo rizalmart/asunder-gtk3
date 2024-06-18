@@ -1,0 +1,539 @@
+# Bengali (India) translation of Asunder v2
+# Copyright (C) 2013 Rajib Lochan Dhibar
+# This file is distributed under the same license as the ASUNDER package
+# FIRST AUTHOR: Rajib Lochan Dhibar <rajib.lochan.dhibar@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Asunder-2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 21:44-0400\n"
+"PO-Revision-Date: 2013-07-17 04:47+0530\n"
+"Last-Translator: Rajib Lochan Dhibar <rajib.lochan.dhibar@gmail.com>\n"
+"Language-Team: Rajib Lochan Dhibar <rajib.lochan.dhibar@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural= n!=1;\n"
+"X-Poedit-Language: Bengali\n"
+"X-Poedit-Country: INDIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/main.c:146 ../src/interface.c:314
+msgid "Rip"
+msgstr "রিপ্"
+
+#: ../src/main.c:156
+msgid "Track"
+msgstr "ট্রাক্"
+
+#: ../src/main.c:164
+msgid "Artist"
+msgstr "শিল্পী"
+
+#: ../src/main.c:172 ../src/main.c:180
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: ../src/main.c:188
+msgid "Time"
+msgstr "সময়"
+
+#: ../src/main.c:217
+msgid ""
+"'cdparanoia' was not found in your path. Asunder requires cdparanoia to rip "
+"CDs."
+msgstr ""
+"সিস্টেম পাথের মদ্ধ্যে 'cdparanoia' পাওয়া যায় নি। সিডি রিপ্ করতে অসুন্ডারের "
+"'cdparanoia' দরকার।"
+
+#. Debug print add time last taken by the open() call.
+#. snprintf(msgStr, 1024, "%s [open %.1lf sec]",
+#. _("<b>Checking disc...</b>"), open_diff_time / 1E6);
+#. This is to deal with the fact that the signal below will take up to
+#. a second to get processed in refresh_thread() which will call check_disk()
+#. which will set the label to the same thing at the start.
+#: ../src/main.c:267 ../src/main.c:292 ../src/main.c:957
+msgid "<b>Checking disc...</b>"
+msgstr ""
+
+#: ../src/main.c:551
+msgid "<b>Getting disc info from the internet...</b>"
+msgstr "<b>ইন্টারনেট্ থেকে ডিস্কের তথ্য নেওয়া হচ্ছে...</b>"
+
+#: ../src/main.c:668
+msgid "<b>Reading disc...</b>"
+msgstr ""
+
+#: ../src/callbacks.c:60 ../src/callbacks.c:294 ../src/callbacks.c:322
+#: ../src/callbacks.c:331 ../src/callbacks.c:340 ../src/callbacks.c:350
+#: ../src/interface.c:725 ../src/interface.c:812 ../src/interface.c:921
+#: ../src/interface.c:1057
+#, c-format
+msgid "%dKbps"
+msgstr "%dকেবিপিএস"
+
+#: ../src/callbacks.c:737
+msgid "No CD is inserted. Please insert a CD into the CD-ROM drive."
+msgstr "কোন সিডি ঢোকানো হয় নি। অনুগ্রহ করে সিডি-রম ড্রাইভে সিডি ঢোকান।"
+
+#: ../src/callbacks.c:756 ../src/callbacks.c:782 ../src/callbacks.c:807
+#: ../src/callbacks.c:832 ../src/callbacks.c:857 ../src/callbacks.c:883
+#: ../src/callbacks.c:908 ../src/callbacks.c:933
+#, c-format
+msgid ""
+"%s was not found in your path. Asunder requires it to create %s files. All "
+"%s functionality is disabled."
+msgstr ""
+"সিস্টেম পাথের মদ্ধে %s পাওয়া যায় নি। %s ফাইল তৈরি করতে অসুন্ডারের এটি দরকার। "
+"সমস্ত %s কাজকর্ম অকেজ হল।"
+
+#: ../src/callbacks.c:1023
+msgid "Select all for ripping"
+msgstr "রিপিং-এর জন্য সবগুলি নেওয়া হোক"
+
+#: ../src/callbacks.c:1029
+msgid "Deselect all for ripping"
+msgstr "রিপিং-এর জন্য সবগুলি বাদ দেওয়া হোক"
+
+#: ../src/callbacks.c:1035
+msgid "Capitalize Artists & Titles"
+msgstr ""
+
+#: ../src/callbacks.c:1065
+msgid "Swap Artist <=> Title"
+msgstr ""
+
+#: ../src/interface.c:98
+msgid "CDDB Lookup"
+msgstr "সিডিডিবি দর্শন"
+
+#: ../src/interface.c:161
+msgid "Disc:"
+msgstr "ডিস্ক:"
+
+#. 2nd the labels in col 1:
+#: ../src/interface.c:168
+msgid "Album Artist:"
+msgstr "এলবামের শিল্পী:"
+
+#: ../src/interface.c:175
+msgid "Album Title:"
+msgstr "এলবামের শিরোনাম:"
+
+#: ../src/interface.c:182
+msgid "Single Artist"
+msgstr "একক শিল্পী"
+
+#: ../src/interface.c:195
+msgid "First track number:"
+msgstr ""
+
+#: ../src/interface.c:208
+msgid "Track number width in filename:"
+msgstr ""
+
+#. Category
+#: ../src/interface.c:235
+msgid "Category:"
+msgstr ""
+
+#. Genre and Year
+#: ../src/interface.c:243
+msgid "Genre / Year:"
+msgstr "বিভাগ / সাল:"
+
+#: ../src/interface.c:476
+msgid "Preferences"
+msgstr "পছন্দতালিকা"
+
+#: ../src/interface.c:493 ../src/interface.c:499
+msgid "Destination folder"
+msgstr "গন্তব্য ফোল্ডার"
+
+#: ../src/interface.c:503
+msgid "Create M3U playlist"
+msgstr "M3U প্লে-লিস্ট্ তৈরি করা হোক"
+
+#: ../src/interface.c:511
+msgid "CD-ROM device: "
+msgstr "সিডি-রম ডিভাইস: "
+
+#: ../src/interface.c:520
+msgid ""
+"Default: /dev/cdrom\n"
+"Other example: /dev/hdc\n"
+"Other example: /dev/sr0"
+msgstr ""
+"ডিফল্ট: /ডেভ্/সিডিরম\n"
+"অন্য উদাহরন: /ডেভ্/hdc\n"
+"অন্য উদাহরন: /ডেভ্/sr0"
+
+#: ../src/interface.c:524
+msgid "Eject disc when finished"
+msgstr "কাজ হয়ে গেলে ডিস্কটি বার করা দরকার"
+
+#: ../src/interface.c:532
+msgid "General"
+msgstr "সাধারণ"
+
+#: ../src/interface.c:552
+msgid ""
+"%A - Artist\n"
+"%L - Album\n"
+"%N - Track number (2-digit)\n"
+"%Y - Year (4-digit or \"0\")\n"
+"%T - Song title"
+msgstr ""
+"%A - শিল্পী\n"
+"%L - এলবাম\n"
+"%N - পাথ নম্বর (২-টি অক্ষর)\n"
+"%Y - সাল (৪-টি অক্ষর অথবা \"0\")\n"
+"%T - গানের শিরোনাম"
+
+#: ../src/interface.c:557
+#, c-format
+msgid "%G - Genre"
+msgstr "%G - বিভাগ"
+
+#: ../src/interface.c:572
+msgid "Album directory: "
+msgstr "এলবামের ফোল্ডার: "
+
+#: ../src/interface.c:579 ../src/prefs.c:776
+msgid "Playlist file: "
+msgstr "প্লে-লিস্টের ফাইল: "
+
+#: ../src/interface.c:586 ../src/prefs.c:788 ../src/prefs.c:798
+msgid "Music file: "
+msgstr "গানের ফাইল: "
+
+#: ../src/interface.c:600
+msgid ""
+"This is relative to the destination folder (from the General tab).\n"
+"Can be blank.\n"
+"Default: %A - %L\n"
+"Other example: %A/%L"
+msgstr ""
+"এটি গন্তব্যস্থলের ফ্লোল্ডারের সাথে সম্বন্ধযুক্ত (সাধারন ট্যব্ থেকে)।\n"
+"ফাঁকা হতে পারে।\n"
+"ডিফল্ট্: %A - %L\n"
+"অন্য উদাহরন: %A/%L"
+
+#: ../src/interface.c:612
+msgid ""
+"This will be stored in the album directory.\n"
+"Can be blank.\n"
+"Default: %A - %L"
+msgstr ""
+"এটিকে এলবামের ফোল্ডারে রাখা হবে।\n"
+"ফাঁকা হতে পারে।\n"
+"ডিফল্ট্: %A - %L"
+
+#: ../src/interface.c:623
+msgid ""
+"This will be stored in the album directory.\n"
+"Cannot be blank.\n"
+"Default: %A - %T\n"
+"Other example: %N - %T"
+msgstr ""
+"এটিকে এলবামের ফোল্ডারে রাখা হবে।\n"
+"ফাঁকা হতে পারে না।\n"
+"ডিফল্ট্: %A - %T\n"
+"অন্য উদাহরন: %N - %T"
+
+#: ../src/interface.c:628
+msgid "Filename formats"
+msgstr "ফাইলনামের ফরমাট"
+
+#: ../src/interface.c:633
+msgid "Allow changing first track number"
+msgstr ""
+
+#: ../src/interface.c:638
+msgid "Filenames"
+msgstr "ফাইলনাম"
+
+#. WAV
+#. frame3 = gtk_frame_new (NULL);
+#. gtk_frame_set_shadow_type(GTK_FRAME(frame3), GTK_SHADOW_IN);
+#. gtk_widget_show (frame3);
+#. gtk_box_pack_start (GTK_BOX (vbox), frame3, FALSE, FALSE, 0);
+#. alignment8 = gtk_alignment_new (0.5, 0.5, 1, 1);
+#. gtk_widget_show (alignment8);
+#. gtk_container_add (GTK_CONTAINER (frame3), alignment8);
+#. gtk_alignment_set_padding (GTK_ALIGNMENT (alignment8), 2, 2, 12, 2);
+#. vbox2 = gtk_vbox_new (FALSE, 0);
+#. gtk_widget_show (vbox2);
+#. gtk_container_add (GTK_CONTAINER (alignment8), vbox2);
+#: ../src/interface.c:672
+msgid "WAV (uncompressed)"
+msgstr "WAV (অসঙ্কুচিত)"
+
+#: ../src/interface.c:693
+msgid "Variable bit rate (VBR)"
+msgstr "ভেরিয়েবল বিট রেট (VBR)"
+
+#: ../src/interface.c:701
+msgid "Better quality for the same size."
+msgstr "একই সাইজের জন্য উন্নতমানের।"
+
+#: ../src/interface.c:707 ../src/interface.c:794 ../src/interface.c:905
+#: ../src/interface.c:991 ../src/interface.c:1039
+msgid "Bitrate"
+msgstr "বিটরেট্"
+
+#: ../src/interface.c:722 ../src/interface.c:809
+msgid ""
+"Higher bitrate is better quality but also bigger file. Most people use "
+"192Kbps."
+msgstr ""
+"বিটরেট্ বেশী হলে উন্নতমানের হবে, আবার ফাইল সাইজও বাড়বে। অনেকেই ১৯২-কেবিপিএস্ "
+"ব্যবহার করেন।"
+
+#: ../src/interface.c:731
+msgid "MP3 (lossy compression)"
+msgstr "MP3 (ক্ষতিকারক সঙ্কোচন)"
+
+#: ../src/interface.c:754
+msgid "Quality"
+msgstr "গুনমান"
+
+#: ../src/interface.c:765
+msgid "Higher quality means bigger file. Default is 6."
+msgstr "গুনমান ভালো হলে ফাইল সাইজ বাড়বে। ৬-হলো ডিফল্ট্।"
+
+#: ../src/interface.c:767
+msgid "OGG Vorbis (lossy compression)"
+msgstr "OGG ভরবিস্ (ক্ষতিকারক সঙ্কোচন)"
+
+#: ../src/interface.c:818
+#, fuzzy
+msgid "AAC (lossy compression)"
+msgstr "MP3 (ক্ষতিকারক সঙ্কোচন)"
+
+#: ../src/interface.c:841 ../src/interface.c:957 ../src/interface.c:1096
+msgid "Compression level"
+msgstr "সঙ্কোচনের মাত্রা"
+
+#: ../src/interface.c:852 ../src/interface.c:1109
+msgid "This does not affect the quality. Higher number means smaller file."
+msgstr "এটি গুনমানে প্রভাব ফেলবে না। উচ্চ সংখ্যা মানে ছোট ফাইল।"
+
+#: ../src/interface.c:854
+msgid "FLAC (lossless compression)"
+msgstr "FLAC (অক্ষতিকারক সঙ্কোচন)"
+
+#: ../src/interface.c:873
+msgid "More formats"
+msgstr "অারও কিছু ফরমাট্"
+
+#: ../src/interface.c:919
+msgid ""
+"Higher bitrate is better quality but also bigger file. Most people use "
+"160Kbps."
+msgstr ""
+"বিটরেট্ বেশী হলে উন্নতমানের হবে, আবার ফাইল সাইজও বাড়বে। অনেকেই ১৬০-কেবিপিএস্ "
+"ব্যবহার করেন।"
+
+#: ../src/interface.c:927
+msgid "OPUS (lossy compression)"
+msgstr "OPUS (ক্ষতিকারক সঙ্কোচন)"
+
+#: ../src/interface.c:970
+msgid ""
+"This does not affect the quality. Higher number means smaller file. Default "
+"is 1 (recommended)."
+msgstr ""
+"এটি গুনমানে প্রভাব ফেলবে না। উচ্চ সংখ্যা মানে ছোট ফাইল। ১-হলো ডিফল্ট (প্রস্তাবিত)।"
+
+#: ../src/interface.c:976
+msgid "Hybrid compression"
+msgstr "সঙ্করায়িত সঙ্কোচন"
+
+#: ../src/interface.c:985
+msgid ""
+"The format is lossy but a correction file is created for restoring the "
+"lossless original."
+msgstr ""
+"এই ফরমাটটি ক্ষয়কারি, কিন্তু অপচয়হীন অাসলটিকে পুনরুদ্ধার করার জন্য একটি সংশোধন ফাইল "
+"তৈরী করা হয়েছে।"
+
+#: ../src/interface.c:1055
+msgid "Higher bitrate is better quality but also bigger file."
+msgstr "বিটরেট্ বেশী হলে উন্নতমানের হবে, আবার ফাইল সাইজও বাড়বে।"
+
+#: ../src/interface.c:1063
+msgid "Musepack (lossy compression)"
+msgstr "মিউজপ্যাক্ (ক্ষতিকারক সঙ্কোচন)"
+
+#: ../src/interface.c:1111
+msgid "Monkey's Audio (lossless compression)"
+msgstr "মাঙ্কিস্ অডিও (অক্ষতিকারক সঙ্কোচন)"
+
+#. END MONKEY
+#. ~ expander = gtk_expander_new(_("Proprietary encoders"));
+#. ~ gtk_widget_show (expander);
+#. ~ gtk_box_pack_start (GTK_BOX (vbox), expander, FALSE, FALSE, 0);
+#. ~ GLADE_HOOKUP_OBJECT (prefs, expander, "proprietary_formats_expander");
+#. ~ hiddenbox = gtk_vbox_new (FALSE, 0);
+#. ~ gtk_widget_show (hiddenbox);
+#. ~ gtk_container_add (GTK_CONTAINER (expander), hiddenbox);
+#: ../src/interface.c:1129
+msgid "Encode"
+msgstr "এনকোড্"
+
+#: ../src/interface.c:1164
+msgid "Get disc info from the internet automatically"
+msgstr "সয়ংক্রিয়ভাবে ইন্টারনেট্ থেকে ডিস্কের তথ্য নেওয়া হোক্"
+
+#: ../src/interface.c:1173 ../src/interface.c:1229
+msgid "Server: "
+msgstr "সার্ভার:"
+
+#: ../src/interface.c:1183
+msgid "The CDDB server to get disc info from (default is gnudb.gnudb.org)"
+msgstr ""
+"সিডিডিবি সার্ভার, যেখান থেকে ডিস্কের তথ্য নেওয়া হবে (ডিফল্ট হলো gnudb.gnudb.org)"
+
+#: ../src/interface.c:1191 ../src/interface.c:1242
+msgid "Port: "
+msgstr "পোর্ট:"
+
+#: ../src/interface.c:1201
+msgid "The CDDB server port (default is 8880)"
+msgstr "সিডিডিবি সার্ভার পোর্ট (ডিফল্ট হলো ৮৮৮০)"
+
+#: ../src/interface.c:1216
+msgid "Use an HTTP proxy to connect to the internet"
+msgstr "ইন্টারনেটে সংযোগ করতে HTTP প্রক্সি ব্যবহার করা হোক্"
+
+#: ../src/interface.c:1264
+msgid "Artist/Title separator: "
+msgstr ""
+
+#: ../src/interface.c:1275
+msgid "Log to /var/log/asunder.log"
+msgstr ""
+
+#: ../src/interface.c:1280
+msgid "Faster ripping (no error correction)"
+msgstr ""
+
+#: ../src/interface.c:1289
+msgid "Advanced"
+msgstr "উন্নততর"
+
+#: ../src/interface.c:1362 ../src/interface.c:1398
+msgid "Ripping"
+msgstr "রিপিং"
+
+#: ../src/interface.c:1391
+msgid "Total progress"
+msgstr "সর্বমোট অগ্রগতি"
+
+#: ../src/interface.c:1405
+msgid "Encoding"
+msgstr "এনকোডিং"
+
+#: ../src/interface.c:2060
+#, fuzzy
+msgid ""
+"An application to save tracks from an Audio CD \n"
+"as WAV, MP3, OGG, FLAC, Wavpack, Opus, Musepack, Monkey's Audio, and/or AAC "
+"files."
+msgstr ""
+"একটি ব্যবহারিক সফট্ওয়ার যা অডিও সিডি থেকে ট্রাকগুলিকে সেভ করে WAV,\n"
+"MP3, OGG, FLAC, ওয়্যাভপ্যাক, মিউজপ্যাক, মাঙ্কিস্ অডিও, এবং/অথবা AAC ফাইলে।"
+
+#: ../src/interface.c:2102
+#, c-format
+msgid "%d file created successfully"
+msgid_plural "%d files created successfully"
+msgstr[0] "%d ফাইল সফলভাবে তৈরি হয়েছে"
+msgstr[1] "%d ফাইলগুলি সফলভাবে তৈরি হয়েছে"
+
+#: ../src/interface.c:2111
+#, c-format
+msgid "There was an error creating %d file"
+msgid_plural "There was an error creating %d files"
+msgstr[0] "%d ফাইল তৈরি করার সময় একটি ত্রুটি ছিল"
+msgstr[1] "%d ফাইলগুলি তৈরি করার সময় একটি ত্রুটি ছিল"
+
+#: ../src/prefs.c:775 ../src/prefs.c:787
+#, c-format
+msgid "Invalid characters in the '%s' field"
+msgstr "'%s' অঞ্চলের মদ্ধ্যে অবৈধ অক্ষর অাছে"
+
+#: ../src/prefs.c:797
+#, c-format
+msgid "'%s' cannot be empty"
+msgstr "'%s' ফাঁকা হতে পারে না"
+
+#: ../src/prefs.c:812
+msgid "Invalid proxy port number"
+msgstr "অবৈধ প্রক্সি পোর্ট নম্বর"
+
+#: ../src/prefs.c:825
+msgid "Invalid cddb server port number"
+msgstr "অবৈধ সিডিডিবি সার্ভার পোর্ট নম্বর"
+
+#: ../src/support.c:47
+msgid "Overwrite?"
+msgstr "ওভাররাইট?"
+
+#: ../src/support.c:60
+#, c-format
+msgid "The file '%s' already exists. Do you want to overwrite it?\n"
+msgstr "'%s' ফাইলটি ইতিমদ্ধ্যেই বিদ্যমান। অাপনি কি এটিকে ওভাররাইট করতে চান?\n"
+
+#: ../src/support.c:66
+msgid "Remember the answer for _all the files made from this CD"
+msgstr "উত্তরটি মনে রাখা দরকার। সমস্ত ফাইল এই সিডি থেকে তৈরি হয়েছে।"
+
+#: ../src/threads.c:189
+msgid ""
+"No ripping/encoding method selected. Please enable one from the "
+"'Preferences' menu."
+msgstr ""
+"কোন রিপিং/এনকোডিং পদ্ধতি বাছা হয় নি। 'পছন্দতালিকা' থেকে যেকোন একটিকে সক্রিয় করুন।"
+
+#: ../src/threads.c:221
+msgid ""
+"No tracks were selected for ripping/encoding. Please select at least one "
+"track."
+msgstr ""
+"রিপিং/এনকোডিং-এর জন্য কোন ট্রাক্ বাছা হয়নি। অনুগ্রহ করে অন্তত একটি ট্রাক্ বেছে নিন।"
+
+#: ../src/threads.c:1299 ../src/threads.c:1301 ../src/threads.c:1305
+msgid "Waiting..."
+msgstr "প্রতীক্ষায় অাছি..."
+
+#~ msgid "Proprietary encoders"
+#~ msgstr "সম্পত্তিযুক্ত এনকোডার"
+
+#~ msgid "Higher quality means bigger file. Default is 60."
+#~ msgstr "গুনমান ভালো হলে ফাইল সাইজ বাড়বে। ৬০-হলো ডিফল্ট্।"
+
+#~ msgid "AAC (lossy compression, Nero encoder)"
+#~ msgstr "AAC (ক্ষতিকারক সঙ্কোচন, নিরো এনকোডার)"
+
+#~ msgid "Genre"
+#~ msgstr "বিভাগ"
+
+#~ msgid "Single Genre"
+#~ msgstr "একটি বিভাগ"
+
+#~ msgid ""
+#~ "%s was not found in your path. Asunder requires it to create %s files.All "
+#~ "%s functionality is disabled."
+#~ msgstr ""
+#~ "সিস্টেম পাথের মদ্ধে %s পাওয়া যায় নি। %s ফাইল তৈরি করতে অসুন্ডারের এটি দরকার। "
+#~ "সমস্ত %s কাজকর্ম অকেজ হল।"
+
+#~ msgid "%d files created successfully"
+#~ msgstr "%d ফাইলগুলি সফলভাবে তৈরি হয়েছে"
+
+#~ msgid "There was an error creating %d files"
+#~ msgstr "%d ফাইলগুলি তৈরি করার সময় একটি ত্রুটি ছিল"
