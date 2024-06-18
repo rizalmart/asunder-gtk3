@@ -1,0 +1,535 @@
+# Polish translation for Asunder.
+# This file is distributed under the same license as the Asunder package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Asunder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-21 21:44-0400\n"
+"PO-Revision-Date: 2016-11-29 17:17+0100\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: ../src/main.c:146 ../src/interface.c:314
+msgid "Rip"
+msgstr "Zgraj"
+
+#: ../src/main.c:156
+msgid "Track"
+msgstr "Ścieżka"
+
+#: ../src/main.c:164
+msgid "Artist"
+msgstr "Artysta"
+
+#: ../src/main.c:172 ../src/main.c:180
+msgid "Title"
+msgstr "Tytuł"
+
+#: ../src/main.c:188
+msgid "Time"
+msgstr "Czas"
+
+#: ../src/main.c:217
+msgid ""
+"'cdparanoia' was not found in your path. Asunder requires cdparanoia to rip "
+"CDs."
+msgstr ""
+"Brak programu 'cdparanoia'. Asunder potrzebuje programu cdparanoia do "
+"zgrywania dysków CD."
+
+#. Debug print add time last taken by the open() call.
+#. snprintf(msgStr, 1024, "%s [open %.1lf sec]",
+#. _("<b>Checking disc...</b>"), open_diff_time / 1E6);
+#. This is to deal with the fact that the signal below will take up to
+#. a second to get processed in refresh_thread() which will call check_disk()
+#. which will set the label to the same thing at the start.
+#: ../src/main.c:267 ../src/main.c:292 ../src/main.c:957
+msgid "<b>Checking disc...</b>"
+msgstr ""
+
+#: ../src/main.c:551
+msgid "<b>Getting disc info from the internet...</b>"
+msgstr "<b>Pobieranie informacji o płycie z Internetu...</b>"
+
+#: ../src/main.c:668
+msgid "<b>Reading disc...</b>"
+msgstr ""
+
+#: ../src/callbacks.c:60 ../src/callbacks.c:294 ../src/callbacks.c:322
+#: ../src/callbacks.c:331 ../src/callbacks.c:340 ../src/callbacks.c:350
+#: ../src/interface.c:725 ../src/interface.c:812 ../src/interface.c:921
+#: ../src/interface.c:1057
+#, c-format
+msgid "%dKbps"
+msgstr "%dKbps"
+
+#: ../src/callbacks.c:737
+msgid "No CD is inserted. Please insert a CD into the CD-ROM drive."
+msgstr "Brak dysku w napędzie. Włóż dysk CD do napędu."
+
+#: ../src/callbacks.c:756 ../src/callbacks.c:782 ../src/callbacks.c:807
+#: ../src/callbacks.c:832 ../src/callbacks.c:857 ../src/callbacks.c:883
+#: ../src/callbacks.c:908 ../src/callbacks.c:933
+#, c-format
+msgid ""
+"%s was not found in your path. Asunder requires it to create %s files. All "
+"%s functionality is disabled."
+msgstr ""
+"Brak programu %s. Asunder potrzebuje go do tworzenia plików %s. Cała "
+"funkcjonalność %s jest wyłączona."
+
+#: ../src/callbacks.c:1023
+msgid "Select all for ripping"
+msgstr "Zaznacz wszystkie do zgrywania"
+
+#: ../src/callbacks.c:1029
+msgid "Deselect all for ripping"
+msgstr "Odznacz wszystkie"
+
+#: ../src/callbacks.c:1035
+msgid "Capitalize Artists & Titles"
+msgstr ""
+
+#: ../src/callbacks.c:1065
+msgid "Swap Artist <=> Title"
+msgstr ""
+
+#: ../src/interface.c:98
+msgid "CDDB Lookup"
+msgstr "Szukaj w bazie CDDB"
+
+#: ../src/interface.c:161
+msgid "Disc:"
+msgstr "Dysk:"
+
+#. 2nd the labels in col 1:
+#: ../src/interface.c:168
+msgid "Album Artist:"
+msgstr "Wykonawca albumu:"
+
+#: ../src/interface.c:175
+msgid "Album Title:"
+msgstr "Tytuł albumu:"
+
+#: ../src/interface.c:182
+msgid "Single Artist"
+msgstr "Pojedynczy artysta"
+
+#: ../src/interface.c:195
+msgid "First track number:"
+msgstr ""
+
+#: ../src/interface.c:208
+msgid "Track number width in filename:"
+msgstr ""
+
+#. Category
+#: ../src/interface.c:235
+msgid "Category:"
+msgstr ""
+
+#. Genre and Year
+#: ../src/interface.c:243
+msgid "Genre / Year:"
+msgstr "Gatunek / Rok:"
+
+#: ../src/interface.c:476
+msgid "Preferences"
+msgstr "Preferencje"
+
+#: ../src/interface.c:493 ../src/interface.c:499
+msgid "Destination folder"
+msgstr "Katalog docelowy"
+
+#: ../src/interface.c:503
+msgid "Create M3U playlist"
+msgstr "Utwórz listę odtwarzania M3U"
+
+#: ../src/interface.c:511
+msgid "CD-ROM device: "
+msgstr "Urządzenie CD-ROM: "
+
+#: ../src/interface.c:520
+msgid ""
+"Default: /dev/cdrom\n"
+"Other example: /dev/hdc\n"
+"Other example: /dev/sr0"
+msgstr ""
+"Domyślnie: /dev/cdrom\n"
+"Inny przykład: /dev/hdc\n"
+"Inny przykład: /dev/sr0"
+
+#: ../src/interface.c:524
+msgid "Eject disc when finished"
+msgstr "Wysuń dysk po zakończeniu"
+
+#: ../src/interface.c:532
+msgid "General"
+msgstr "Ogólne"
+
+#: ../src/interface.c:552
+msgid ""
+"%A - Artist\n"
+"%L - Album\n"
+"%N - Track number (2-digit)\n"
+"%Y - Year (4-digit or \"0\")\n"
+"%T - Song title"
+msgstr ""
+"%A - Artysta\n"
+"%L - Album\n"
+"%N - Numer ścieżki (2-znaki)\n"
+"%Y - Rok (4-znaki lub \"0\")\n"
+"%T - Tytuł utworu"
+
+#: ../src/interface.c:557
+#, c-format
+msgid "%G - Genre"
+msgstr "%G - Gatunek"
+
+#: ../src/interface.c:572
+msgid "Album directory: "
+msgstr "Katalog albumu: "
+
+#: ../src/interface.c:579 ../src/prefs.c:776
+msgid "Playlist file: "
+msgstr "Plik listy odtwarzania: "
+
+#: ../src/interface.c:586 ../src/prefs.c:788 ../src/prefs.c:798
+msgid "Music file: "
+msgstr "Plik muzyczny: "
+
+#: ../src/interface.c:600
+msgid ""
+"This is relative to the destination folder (from the General tab).\n"
+"Can be blank.\n"
+"Default: %A - %L\n"
+"Other example: %A/%L"
+msgstr ""
+"Zależy od położenia katalogu docelowego (zakładka Ogólne).\n"
+"Może być puste.\n"
+"Domyślnie: %A - %L\n"
+"Inny przykład: %A/%L"
+
+#: ../src/interface.c:612
+msgid ""
+"This will be stored in the album directory.\n"
+"Can be blank.\n"
+"Default: %A - %L"
+msgstr ""
+"Zostanie umieszczony w katalogu albumu.\n"
+"Może być puste.\n"
+"Domyślnie: %A - %L"
+
+#: ../src/interface.c:623
+msgid ""
+"This will be stored in the album directory.\n"
+"Cannot be blank.\n"
+"Default: %A - %T\n"
+"Other example: %N - %T"
+msgstr ""
+"Zostanie umieszczony w katalogu albumu.\n"
+"Nie może być puste.\n"
+"Domyślnie: %A - %T\n"
+"Inny przykład: %N - %T"
+
+#: ../src/interface.c:628
+msgid "Filename formats"
+msgstr "Format nazwy pliku"
+
+#: ../src/interface.c:633
+msgid "Allow changing first track number"
+msgstr ""
+
+#: ../src/interface.c:638
+msgid "Filenames"
+msgstr "Nazwy plików"
+
+#. WAV
+#. frame3 = gtk_frame_new (NULL);
+#. gtk_frame_set_shadow_type(GTK_FRAME(frame3), GTK_SHADOW_IN);
+#. gtk_widget_show (frame3);
+#. gtk_box_pack_start (GTK_BOX (vbox), frame3, FALSE, FALSE, 0);
+#. alignment8 = gtk_alignment_new (0.5, 0.5, 1, 1);
+#. gtk_widget_show (alignment8);
+#. gtk_container_add (GTK_CONTAINER (frame3), alignment8);
+#. gtk_alignment_set_padding (GTK_ALIGNMENT (alignment8), 2, 2, 12, 2);
+#. vbox2 = gtk_vbox_new (FALSE, 0);
+#. gtk_widget_show (vbox2);
+#. gtk_container_add (GTK_CONTAINER (alignment8), vbox2);
+#: ../src/interface.c:672
+msgid "WAV (uncompressed)"
+msgstr "WAV (nieskompresowany)"
+
+#: ../src/interface.c:693
+msgid "Variable bit rate (VBR)"
+msgstr "Zmienna przepływność (VBR)"
+
+#: ../src/interface.c:701
+msgid "Better quality for the same size."
+msgstr "Lepsza jakość przy zachowaniu rozmiaru pliku."
+
+#: ../src/interface.c:707 ../src/interface.c:794 ../src/interface.c:905
+#: ../src/interface.c:991 ../src/interface.c:1039
+msgid "Bitrate"
+msgstr "Przepływność"
+
+#: ../src/interface.c:722 ../src/interface.c:809
+msgid ""
+"Higher bitrate is better quality but also bigger file. Most people use "
+"192Kbps."
+msgstr ""
+"Wyższa wartość bitrate oznacza lepszą jakość przy większym rozmiarze pliku."
+"Większość ludzi używa wartości 192Kbps."
+
+#: ../src/interface.c:731
+msgid "MP3 (lossy compression)"
+msgstr "MP3 (kompresja stratna)"
+
+#: ../src/interface.c:754
+msgid "Quality"
+msgstr "Jakość"
+
+#: ../src/interface.c:765
+msgid "Higher quality means bigger file. Default is 6."
+msgstr "Wyższa jakość oznacza większy plik. Domyślnie 6."
+
+#: ../src/interface.c:767
+msgid "OGG Vorbis (lossy compression)"
+msgstr "OGG Vorbis (kompresja stratna)"
+
+#: ../src/interface.c:818
+#, fuzzy
+msgid "AAC (lossy compression)"
+msgstr "MP3 (kompresja stratna)"
+
+#: ../src/interface.c:841 ../src/interface.c:957 ../src/interface.c:1096
+msgid "Compression level"
+msgstr "Poziom kompresji"
+
+#: ../src/interface.c:852 ../src/interface.c:1109
+msgid "This does not affect the quality. Higher number means smaller file."
+msgstr "Nie wpływa na jakość. Większa wartość oznacza mniejszy rozmiar pliku."
+
+#: ../src/interface.c:854
+msgid "FLAC (lossless compression)"
+msgstr "FLAC (kompresja bezstratna)"
+
+#: ../src/interface.c:873
+msgid "More formats"
+msgstr "Więcej formatów"
+
+#: ../src/interface.c:919
+msgid ""
+"Higher bitrate is better quality but also bigger file. Most people use "
+"160Kbps."
+msgstr ""
+"Wyższa wartość bitrate oznacza lepszą jakość przy większym rozmiarze pliku."
+"Większość ludzi używa wartości 160Kbps."
+
+#: ../src/interface.c:927
+msgid "OPUS (lossy compression)"
+msgstr "OPUS (kompresja stratna)"
+
+#: ../src/interface.c:970
+msgid ""
+"This does not affect the quality. Higher number means smaller file. Default "
+"is 1 (recommended)."
+msgstr ""
+"Nie wpływa na jakość. Większa wartość oznacza mniejszy rozmiar pliku. "
+"Domyślnie 1 (zalecane)."
+
+#: ../src/interface.c:976
+msgid "Hybrid compression"
+msgstr "Kompresja hybrydowa"
+
+#: ../src/interface.c:985
+msgid ""
+"The format is lossy but a correction file is created for restoring the "
+"lossless original."
+msgstr ""
+"Format stratny ale tworzony jest plik korekcyjny pozwalający przywrócić "
+"bezstratny oryginał."
+
+#: ../src/interface.c:1055
+msgid "Higher bitrate is better quality but also bigger file."
+msgstr "Wyższy bitrate oznacza lepszą jakość przy większym rozmiarze pliku."
+
+#: ../src/interface.c:1063
+msgid "Musepack (lossy compression)"
+msgstr "Musepack (kompresja stratna)"
+
+#: ../src/interface.c:1111
+msgid "Monkey's Audio (lossless compression)"
+msgstr "Monkey's Audio (kompresja bezstratna)"
+
+#. END MONKEY
+#. ~ expander = gtk_expander_new(_("Proprietary encoders"));
+#. ~ gtk_widget_show (expander);
+#. ~ gtk_box_pack_start (GTK_BOX (vbox), expander, FALSE, FALSE, 0);
+#. ~ GLADE_HOOKUP_OBJECT (prefs, expander, "proprietary_formats_expander");
+#. ~ hiddenbox = gtk_vbox_new (FALSE, 0);
+#. ~ gtk_widget_show (hiddenbox);
+#. ~ gtk_container_add (GTK_CONTAINER (expander), hiddenbox);
+#: ../src/interface.c:1129
+msgid "Encode"
+msgstr "Koduj"
+
+#: ../src/interface.c:1164
+msgid "Get disc info from the internet automatically"
+msgstr "Automatycznie pobierz informacje o płycie z Internetu"
+
+#: ../src/interface.c:1173 ../src/interface.c:1229
+msgid "Server: "
+msgstr "Serwer: "
+
+#: ../src/interface.c:1183
+msgid "The CDDB server to get disc info from (default is gnudb.gnudb.org)"
+msgstr "Serwer bazy CDDB (domyślnie gnudb.gnudb.org)"
+
+#: ../src/interface.c:1191 ../src/interface.c:1242
+msgid "Port: "
+msgstr "Port: "
+
+#: ../src/interface.c:1201
+msgid "The CDDB server port (default is 8880)"
+msgstr "Port serwera bazy CDDB (domyślnie 8880)"
+
+#: ../src/interface.c:1216
+msgid "Use an HTTP proxy to connect to the internet"
+msgstr "Używaj serwera proxy do łączenia z internetem"
+
+#: ../src/interface.c:1264
+msgid "Artist/Title separator: "
+msgstr ""
+
+#: ../src/interface.c:1275
+msgid "Log to /var/log/asunder.log"
+msgstr "Zapis dziennika do /var/log/asunder.log"
+
+#: ../src/interface.c:1280
+msgid "Faster ripping (no error correction)"
+msgstr "Szybsze zgrywanie (bez korekcji błędów)"
+
+#: ../src/interface.c:1289
+msgid "Advanced"
+msgstr "Zaawansowane"
+
+#: ../src/interface.c:1362 ../src/interface.c:1398
+msgid "Ripping"
+msgstr "Zgrywanie"
+
+#: ../src/interface.c:1391
+msgid "Total progress"
+msgstr "Całkowity postęp"
+
+#: ../src/interface.c:1405
+msgid "Encoding"
+msgstr "Kodowanie"
+
+#: ../src/interface.c:2060
+#, fuzzy
+msgid ""
+"An application to save tracks from an Audio CD \n"
+"as WAV, MP3, OGG, FLAC, Wavpack, Opus, Musepack, Monkey's Audio, and/or AAC "
+"files."
+msgstr ""
+"Program do zapisywania ścieżek z dźwiękowych płyt CD \n"
+"jako pliki WAV, MP3, OGG, FLAC, Opus, Wavpack, Musepack, Monkey's Audio i/"
+"lub AAC."
+
+#: ../src/interface.c:2102
+#, c-format
+msgid "%d file created successfully"
+msgid_plural "%d files created successfully"
+msgstr[0] "%d plik został utworzony pomyślnie"
+msgstr[1] "%d pliki zostały utworzone pomyślnie"
+msgstr[2] "%d plików zostało utworzonych pomyślnie"
+
+#: ../src/interface.c:2111
+#, c-format
+msgid "There was an error creating %d file"
+msgid_plural "There was an error creating %d files"
+msgstr[0] "Wystąpił błąd podczas tworzenia %d pliku"
+msgstr[1] "Wystąpiły błędy podczas tworzenia %d plików"
+msgstr[2] "Wystąpiły błędy podczas tworzenia %d plików"
+
+#: ../src/prefs.c:775 ../src/prefs.c:787
+#, c-format
+msgid "Invalid characters in the '%s' field"
+msgstr "Niepoprawne znaki w polu '%s'"
+
+#: ../src/prefs.c:797
+#, c-format
+msgid "'%s' cannot be empty"
+msgstr "Pole '%s' nie może być puste"
+
+#: ../src/prefs.c:812
+msgid "Invalid proxy port number"
+msgstr "Zły numer portu serwera proxy"
+
+#: ../src/prefs.c:825
+msgid "Invalid cddb server port number"
+msgstr "Zły numer portu serwera bazy CDDB"
+
+#: ../src/support.c:47
+msgid "Overwrite?"
+msgstr "Nadpisać?"
+
+#: ../src/support.c:60
+#, c-format
+msgid "The file '%s' already exists. Do you want to overwrite it?\n"
+msgstr "Plik '%s' już istnieje. Chcesz go nadpisać?\n"
+
+#: ../src/support.c:66
+msgid "Remember the answer for _all the files made from this CD"
+msgstr "Pamiętaj odpowiedź dl_a wszystkich plików zgrywanych z tego dysku"
+
+#: ../src/threads.c:189
+msgid ""
+"No ripping/encoding method selected. Please enable one from the "
+"'Preferences' menu."
+msgstr ""
+"Nie wybrano metody zgrywania/kodowania. Wybierz jedną z menu 'Preferencje'."
+
+#: ../src/threads.c:221
+msgid ""
+"No tracks were selected for ripping/encoding. Please select at least one "
+"track."
+msgstr ""
+"Nie wybrano żadnej ścieżki do zgrywania/kodowania. Wybierz przynajmniej "
+"jedną ścieżkę."
+
+#: ../src/threads.c:1299 ../src/threads.c:1301 ../src/threads.c:1305
+msgid "Waiting..."
+msgstr "Oczekiwanie..."
+
+#~ msgid "Proprietary encoders"
+#~ msgstr "Kodeki własnościowe"
+
+#~ msgid "Higher quality means bigger file. Default is 60."
+#~ msgstr "Wyższa jakość oznacza większy plik. Domyślnie 60."
+
+#~ msgid "AAC (lossy compression, Nero encoder)"
+#~ msgstr "AAC (kompresja stratna, kodek Nero)"
+
+#~ msgid "Genre"
+#~ msgstr "Gatunek"
+
+#~ msgid "Single Genre"
+#~ msgstr "Pojedynczy gatunek"
+
+#, fuzzy
+#~ msgid ""
+#~ "%s was not found in your path. Asunder requires it to create %s files.All "
+#~ "%s functionality is disabled."
+#~ msgstr ""
+#~ "Brak programu %s. Asunder potrzebuje go do tworzenia plików %s. Cała "
+#~ "funkcjonalność %s jest wyłączona."
