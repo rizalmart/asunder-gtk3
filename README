@@ -16,7 +16,7 @@ Features
 Requirements
 ============
 * Linux
-* GTK 2.4 or greater
+* GTK 3.0 or greater
 * Libcddb 0.9.5 or greater
   http://libcddb.sourceforge.net/
 * Cdparanoia
