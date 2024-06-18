@@ -37,7 +37,7 @@ Requirements
 * mac (optional for Monkey's Audio support)
   http://www.monkeysaudio.com/
 
-To compile from source you may need the -dev or -devel versions of GTK and libcddb. On Ubuntu these packages are called libgtk2.0-dev and libcddb2-dev.
+To compile from source you may need the -dev or -devel versions of GTK and libcddb. On Ubuntu these packages are called libgtk3.0-dev and libcddb2-dev.
 
 Compiling
 =========
