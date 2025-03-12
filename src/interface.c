@@ -140,11 +140,11 @@ create_main (void)
                       (GtkAttachOptions) (GTK_FILL),
                       (GtkAttachOptions) (GTK_FILL), 0, 0);
 
-    GtkWidget *pick_category = gtk_combo_box_text_new();
-    for (i = CDDB_CAT_DATA; i < CDDB_CAT_LAST; ++i)
-    {
-    	gtk_combo_box_text_append_text(GTK_COMBO_BOX(pick_category), CDDB_CATEGORY[i]);
-    }
+	GtkWidget *pick_category = gtk_combo_box_text_new();
+	for (i = CDDB_CAT_DATA; i < CDDB_CAT_LAST; ++i)
+	{
+	    gtk_combo_box_text_append_text(GTK_COMBO_BOX_TEXT(pick_category), CDDB_CATEGORY[i]);
+	}	
     gtk_table_attach (GTK_TABLE (table2), pick_category, 1, 2, 3, 4,
                       (GtkAttachOptions) (GTK_EXPAND | GTK_FILL),
                       (GtkAttachOptions) (0), 0, 0);
